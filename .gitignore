@@ -1,0 +1,10 @@
+# Arquivos de configuração
+settings.ini
+
+# Diretório de dados sensíveis
+data/
+
+# Arquivos com senhas ou chaves
+secrets.txt
+keys/
+.env
