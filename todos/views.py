@@ -1,4 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-def home(request):
-  return render(request,"todos/home.html")
+
+def todo_list(request):
+  nome="Cleyson"
+  alunos=["Elton Fonseca" ,"Ariel Sardina" ]
+  return render(request,"todos/todo_list.html", {"nome":nome, "alunos":alunos})
