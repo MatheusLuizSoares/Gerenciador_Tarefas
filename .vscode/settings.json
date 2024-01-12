@@ -3,9 +3,9 @@
   "python.formatting.provider": "black",
   "python.defaultInterpreterPath": "black",
   "files.associations": {
-    "**/templates/**/*html":"django.html"
+    "**/templates/**/*html": "django-html"
   },
   "emmet.includeLanguages": {
-   "django-html":"html"
+    "django-html": "html"
   }
 }
