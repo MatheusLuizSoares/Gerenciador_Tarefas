@@ -7,5 +7,5 @@ urlpatterns = [
     path('',TodoListView.as_view(), name="todo_list"),
     path("create",TodoCreateViws.as_view(),name="todo_create"),
     path("Update/<int:pk>",TodoUpdateView.as_view(),name="todo_update"),
-    path("Delete/<int:>",TodoDeleteView.as_view,name="todo_delete"())
+    path("Delete/<int:pk>",TodoDeleteView.as_view(),name="todo_delete"),
     ]

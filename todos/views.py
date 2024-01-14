@@ -19,4 +19,5 @@ class TodoUpdateView(UpdateView):
   
 class TodoDeleteView(DeleteView):
   model=Todo
+  success_url=reverse_lazy("todo_list")
   
